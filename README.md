@@ -266,7 +266,7 @@ vetorR.append(vetor1[1]+vetor2[1]+vetor3[1]+vetor4[1])
 print('vetorR x {0:.4}'.format(vetorR[0]))
 print('vetorR y {0:.4}'.format(vetorR[1]))
 
-#math.hypot(x, y) reorna a hipotenusa
+#math.hypot(x, y) retorna a hipotenusa
 
 # dcm = 15
 # dm  = dcm/100
