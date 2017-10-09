@@ -108,18 +108,18 @@ def demonstracao2():
     vetor3 = []
     #vetor4 = []
 
-    angulo_do_vetor_Em_Graus = 30
+    anguloVetorEmGraus = 30
     
 
 
-    vetor1.append(-E1*math.cos(round(math.radians(angulo_do_vetor_Em_Graus),6)))
-    vetor1.append(-E1*math.sin(round(math.radians(angulo_do_vetor_Em_Graus),6)))
+    vetor1.append(-E1*math.cos(round(math.radians(anguloVetorEmGraus),6)))
+    vetor1.append(-E1*math.sin(round(math.radians(anguloVetorEmGraus),6)))
 
-    vetor2.append(E2*math.cos(round(math.radians(angulo_do_vetor_Em_Graus),6)))
-    vetor2.append(-E2*math.sin(round(math.radians(angulo_do_vetor_Em_Graus),6)))
+    vetor2.append(E2*math.cos(round(math.radians(anguloVetorEmGraus),6)))
+    vetor2.append(-E2*math.sin(round(math.radians(anguloVetorEmGraus),6)))
 
-    vetor3.append(-E3*math.cos(round(math.radians(angulo_do_vetor_Em_Graus),6)))
-    vetor3.append(E3*math.sin(round(math.radians(angulo_do_vetor_Em_Graus),6)))
+    vetor3.append(-E3*math.cos(round(math.radians(anguloVetorEmGraus),6)))
+    vetor3.append(E3*math.sin(round(math.radians(anguloVetorEmGraus),6)))
 
     #vetor4.append(E4*math.cos(round(math.radians(45),6)))
     #vetor4.append(-E4*math.sin(round(math.radians(45),6)))
@@ -230,19 +230,19 @@ vetor3 = []
 vetor4 = []
 vetorR = []
 
-angulo_do_vetor_Em_Graus = 45
+anguloVetorEmGraus = 45
 
-vetor1.append(E1*math.cos(round(math.radians(angulo_do_vetor_Em_Graus),6)))
-vetor1.append(-E1*math.sin(round(math.radians(angulo_do_vetor_Em_Graus),6)))
+vetor1.append(E1*math.cos(round(math.radians(anguloVetorEmGraus),6)))
+vetor1.append(-E1*math.sin(round(math.radians(anguloVetorEmGraus),6)))
 
-vetor2.append(E2*math.cos(round(math.radians(angulo_do_vetor_Em_Graus),6)))
-vetor2.append(E2*math.sin(round(math.radians(angulo_do_vetor_Em_Graus),6)))
+vetor2.append(E2*math.cos(round(math.radians(anguloVetorEmGraus),6)))
+vetor2.append(E2*math.sin(round(math.radians(anguloVetorEmGraus),6)))
 
-vetor3.append(E3*math.cos(round(math.radians(angulo_do_vetor_Em_Graus),6)))
-vetor3.append(E3*math.sin(round(math.radians(angulo_do_vetor_Em_Graus),6)))
+vetor3.append(E3*math.cos(round(math.radians(anguloVetorEmGraus),6)))
+vetor3.append(E3*math.sin(round(math.radians(anguloVetorEmGraus),6)))
 
-vetor4.append(-E4*math.cos(round(math.radians(angulo_do_vetor_Em_Graus),6)))
-vetor4.append(E4*math.sin(round(math.radians(angulo_do_vetor_Em_Graus),6)))
+vetor4.append(-E4*math.cos(round(math.radians(anguloVetorEmGraus),6)))
+vetor4.append(E4*math.sin(round(math.radians(anguloVetorEmGraus),6)))
 
 
 print('')
